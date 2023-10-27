@@ -2,7 +2,7 @@ import { Button, XGroup, XStack, YStack } from "tamagui";
 
 const Home = () => {
   return (
-    <YStack space="$4">
+    <YStack space="$4" backgroundColor="$backgroundStrong" p="$8">
       <YStack padding="$3" space="$3">
         <Button>Plain</Button>
         <XStack space="$2" justifyContent="center">
