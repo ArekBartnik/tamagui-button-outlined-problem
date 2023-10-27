@@ -1,0 +1,115 @@
+# See https://help.github.com/articles/ignoring-files/ for more about ignoring files.
+
+# Dependencies
+node_modules
+.pnp
+.pnp.js
+web_modules/
+.yarn/*
+!.yarn/patches
+!.yarn/plugins
+!.yarn/releases
+!.yarn/sdks
+!.yarn/versions
+
+# Testing
+coverage
+test-results/
+playwright-report/
+playwright/.cache/
+
+# Nextjs
+.next/
+.swc/
+out/
+build
+/public/build
+
+# blitz
+/.blitz/
+/.next/
+*.sqlite
+*.sqlite-journal
+.now
+.blitz**
+blitz-log.log
+postgres-data
+
+# Expo
+.expo/
+web-build/
+dist/
+
+# Misc
+.DS_Store
+*.pem
+dist
+*.tsbuildinfo
+
+# debug
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# env files
+.env
+.env.development
+.env.staging
+.env.production
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+
+# Turbo/Vercel
+.turbo
+.vercel
+
+# Xcode
+build/
+*.pbxuser
+!default.pbxuser
+*.mode1v3
+!default.mode1v3
+*.mode2v3
+!default.mode2v3
+*.perspectivev3
+!default.perspectivev3
+xcuserdata
+*.xccheckout
+*.moved-aside
+DerivedData
+*.hmap
+*.ipa
+*.xcuserstate
+project.xcworkspace
+
+# Android/IntelliJ
+build/
+.idea
+.gradle
+local.properties
+*.iml
+*.hprof
+
+# BUCK
+buck-out/
+\.buckd/
+*.keystore
+!debug.keystore
+
+# Bundle artifacts
+*.jsbundle
+
+# CocoaPods
+/ios/Pods/
+
+# storybook
+/storybook-static/
+
+# email
+.react-email
+
+# tamagui
+**/.tamagui/*
